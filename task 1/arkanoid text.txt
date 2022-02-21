@@ -1,0 +1,36 @@
+@startuml
+
+class Player
+{
+    Score : int
+
+}
+
+class Ball
+{
+    PosX : double
+    PosY : double
+    Speed : double
+    Direction : double
+}
+
+class Platform
+{
+    PosX : double
+    Length : double
+    Speed : double
+}
+
+class Stone
+{
+    PosX : double
+    PosY : double
+    SizeX : double
+    SizeY : double
+}
+
+Platform <- Player
+Ball <-> Platform
+Stone <-> Ball
+
+@enduml
