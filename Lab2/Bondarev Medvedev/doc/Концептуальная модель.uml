@@ -1,0 +1,11 @@
+@startuml
+Robot : charge() 
+Robot : stock paint
+PC : condition
+graffiti : position
+PC - Robot : reciving comand >
+Robot - Floor : Clean >
+Robot - Wall : Clean >
+graffiti -- Wall : >
+graffiti -- Floor : >
+@enduml
