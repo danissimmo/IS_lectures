@@ -1,0 +1,17 @@
+@startuml
+Class Robot{
+Move on the left()
+Move on the right()
+Move forward()
+Clean the floor()
+Clean the wall()
+Paint over the graffiti on the wall()
+Paint over the graffiti on the floor()
+Return on his place()
+}
+Class PC{
+detectgraffiti()
+Reciving a comand() 
+}
+PC o-- Robot: has
+@enduml
