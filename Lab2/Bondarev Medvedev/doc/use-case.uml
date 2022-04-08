@@ -8,5 +8,5 @@
 :Robot: --> (Paint over the graffiti on the wall)
 :Robot: --> (Paint over the graffiti on the floor)
 :Robot: --> (Return on his place)
-:PC: --> (Transition scommand)
+:PC: --> (Transition command)
 @enduml 
